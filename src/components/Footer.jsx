@@ -9,7 +9,7 @@ import lin from '../images/in.png'
 export default function Footer() {
 
     return (
-        <div className="bg-white font-lato text-black">
+        <div className="bg-white font-lato text-black shadow-[0_0_5px_rgba(0,0,0,0.9)]">
             <Row className="w-[1280px] h-25 text-sm m-auto">
                 <Col span={9} className="relative">
                     <div className="absolute bottom-1 right-2 underline">

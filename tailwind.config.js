@@ -12,11 +12,7 @@ module.exports = {
             'cursive': ['cursive'],
             'sans': ['sans-serif'],
             'lato': ['Lato', 'sans-serif'],
-            'Montserrat':['Montserrat'],
-
-        },
-        fontSize: {
-            '3xl': ['2rem', '3rem'],
+            'montserrat':['Montserrat'],
         },
         extend: {
             colors: {
@@ -24,13 +20,16 @@ module.exports = {
                 'darkslategray': '#2F4F4F'
             },
             backgroundImage: () => ({
-                'back': "url('images/background.jpg')"
+                'back': "url('images/background.jpg')",
+                'space': "url('images/space.webp')",
+                'dome': "url('images/dome.webp')",
             }),
             spacing: {
                 '1/10': '10%',
                 '1/8': '12.5%',
                 '3/20': '15%',
                 '25': '6.25rem',
+                '2/1': '200%',
             }
         },
     },
