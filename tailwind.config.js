@@ -8,11 +8,12 @@ module.exports = {
             '110%': '110%',
         },
         fontFamily: {
-            'jockey': ['jockey one', 'sans-serif'],
+            'jockey': ['jockey one'],
             'cursive': ['cursive'],
-            'sans': ['sans-serif'],
-            'lato': ['Lato', 'sans-serif'],
+            'sans': ['open sans'],
+            'lato': ['Lato'],
             'montserrat':['Montserrat'],
+            'metro': ['metropolis'],
         },
         extend: {
             colors: {
@@ -23,6 +24,7 @@ module.exports = {
                 'back': "url('images/background.jpg')",
                 'space': "url('images/space.webp')",
                 'dome': "url('images/dome.webp')",
+                'enroll': "url('images/enroll.webp')",
             }),
             spacing: {
                 '1/10': '10%',

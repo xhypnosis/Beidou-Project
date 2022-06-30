@@ -1,5 +1,5 @@
 import { Col, Row } from 'antd'
-import reward from '../../images/reward.svg'
+import reward from '../../images/reward 2022.svg'
 
 export default function Reward2022() {
     return (
