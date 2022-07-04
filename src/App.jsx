@@ -11,7 +11,6 @@ import Merak from './pages/Merak'
 import Reward2021 from './pages/Merak/Reward'
 import Tutor2021 from './pages/Merak/Tutor'
 import Courseware2021 from './pages/Merak/Courseware'
-import Catalogue2021 from './pages/Merak/Catalogue'
 import Video2021 from './pages/Merak/Video'
 import List2021 from './pages/Merak/EntryList'
 import Phecda from './pages/Phecda'
@@ -48,11 +47,11 @@ function App() {
                     </Route>
                     <Route path="merak" element={<Basic />}>
                         <Route index element={<Merak />} />
-                        <Route path="catalogue" element={<Catalogue2021 />} />
                         <Route path="video" element={<Video2021 />} />
                         <Route path="courseware" element={<Courseware2021 />} />
                         <Route path="reward" element={<Reward2021 />} />
                         <Route path="tutor" element={<Tutor2021 />} />
+                        <Route path="entry-list" element={<List2021 />} />
                     </Route>
                     <Route path="phecda" element={<Basic />}>
                         <Route index element={<Phecda />} />

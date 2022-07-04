@@ -15,7 +15,7 @@ export default function Tutor2022() {
     }
 
     return (
-        <div className="w-[1280px] bg-[#2F2E2E]">
+        <div className="bg-[#2F2E2E]">
             <div className="text-white tracking-normal pb-36">
                 <Row className="h-60 pt-24">
                     <Col span={8}></Col>
@@ -23,15 +23,15 @@ export default function Tutor2022() {
                         <h1 className="text-white m-0 text-[40px] font-bold">
                             <span style={style}>导 师 团 队</span>
                         </h1>
-                        <br />
+                        
                         <span className="text-white text-[18px]" style={style}>(排名不分先后)</span>
                     </Col>
                     <Col span={8}></Col>
                 </Row>
-                <br /><br />
-                <Row>
+                
+                <Row className="pt-20">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={longfan} alt="longfan" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={longfan} alt="longfan" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">龙凡</p>
                             <p className="text-base m-0">树图区块链研究院院长</p>
@@ -47,7 +47,7 @@ export default function Tutor2022() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={wuming} alt="wuming" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={wuming} alt="wuming" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">伍鸣</p>
                             <p className="text-base m-0">Conflux首席技术官</p>
@@ -60,12 +60,12 @@ export default function Tutor2022() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={yuanjie} alt="yuanjie" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={yuanjie} alt="yuanjie" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">张元杰</p>
                             <p className="text-base m-0">Conflux联合创始人</p>
                             <ul className="w-[300px] ml-7 mt-9 mb-0 list-disc text-left text-[15px]">
-                                <li className="mt-1">布兰迪斯大学（Brandeis University）硕士</li>
+                                <li className="mt-1">布兰迪斯大学（andeis University）硕士</li>
                                 <li className="mt-1">本科毕业于复旦大学</li>
                                 <li className="mt-1">曾任职于北卡教堂山校友基金会和华泰招商母基金</li>
                             </ul>
@@ -74,7 +74,7 @@ export default function Tutor2022() {
                 </Row>
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={veneris} alt="veneris" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={veneris} alt="veneris" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Andreas Veneris</p>
                             <p className="w-[300px] text-base m-0">多伦多大学电子与计算机工程系教授、计算机科学系教授</p>
@@ -85,7 +85,7 @@ export default function Tutor2022() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={peter} alt="peter" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={peter} alt="peter" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Péter Garamvölgyi</p>
                             <p className="text-base m-0">Conflux 资深研发工程师</p>
@@ -99,7 +99,7 @@ export default function Tutor2022() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={yichen} alt="yichen" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={yichen} alt="yichen" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">黄亦宸</p>
                             <p className="text-base m-0">黑曜石区块链社区宣讲师</p>
@@ -113,7 +113,7 @@ export default function Tutor2022() {
                 </Row>
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={baiyu} alt="baiyu" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={baiyu} alt="baiyu" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">白鱼</p>
                             <p className="text-base m-0">SeeDAO 发起人</p>
@@ -124,7 +124,7 @@ export default function Tutor2022() {
                         </div>
                     </Col>
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={tanghan} alt="tanghan" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={tanghan} alt="tanghan" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">唐晗</p>
                             <p className="text-base m-0">SeeDAO 发起人</p>
@@ -137,7 +137,7 @@ export default function Tutor2022() {
                     </Col>
                     <Col span={8}>
                         {/* div to make rectangle image circular*/}
-                        <div className="w-[220px] h-[220px] overflow-hidden rounded-[50%] inline-block">
+                        <div className="w-[220px] h-[220px] overflow-hidden rounded-[50%] m-auto">
                             <img className="w-full" src={wuxiao} alt="wuxiao" />
                         </div>
                         <div className="w-[220px] mt-[4.25rem] text-left inline-block">

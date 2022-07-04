@@ -17,7 +17,7 @@ export default function Tutor2021() {
     }
 
     return (
-        <div className="w-[1280px]">
+        <div>
             <div className="bg-[#2F2E2E] text-white tracking-normal pb-36">
                 <Row className="h-60 pt-24">
                     <Col span={8}></Col>
@@ -30,10 +30,10 @@ export default function Tutor2021() {
                     </Col>
                     <Col span={8}></Col>
                 </Row>
-                <br /><br />
-                <Row>
+    
+                <Row className="mt-20">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={chenxing} alt="chenxing" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={chenxing} alt="chenxing" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">李辰星</p>
                             <p className="text-base m-0">Conflux算法工程师</p>
@@ -45,7 +45,7 @@ export default function Tutor2021() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={peter} alt="peter" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={peter} alt="peter" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Péter Garamvölgyi</p>
                             <p className="text-base m-0">Conflux 资深研发工程师</p>
@@ -59,7 +59,7 @@ export default function Tutor2021() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={pana} alt="pana" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={pana} alt="pana" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">​王攀</p>
                             <p className="text-base m-0">Conflux资深工程师</p>
@@ -72,7 +72,7 @@ export default function Tutor2021() {
                 </Row>
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={yichen} alt="yichen" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={yichen} alt="yichen" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">黄亦宸</p>
                             <p className="text-base m-0">黑曜石区块链社区宣讲师</p>
@@ -84,7 +84,7 @@ export default function Tutor2021() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={dayong} alt="dayong" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={dayong} alt="dayong" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">王大勇</p>
                             <p className="text-base m-0">Conflux 高级研发工程师</p>
@@ -96,7 +96,7 @@ export default function Tutor2021() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={qige} alt="qige" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={qige} alt="qige" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">七哥</p>
                             <p className="text-base m-0">借贷协议 Flux 技术负责人</p>
@@ -110,7 +110,7 @@ export default function Tutor2021() {
                 </Row>
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={foke} alt="foke" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={foke} alt="foke" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">CyberForker</p>
                             <p className="text-base m-0">区块链极客</p>
@@ -130,15 +130,15 @@ export default function Tutor2021() {
                         <h1 className="text-white m-0 text-[40px] font-bold">
                             <span style={style}>导 师 团 队</span>
                         </h1>
-                        <br />
+                        
                         <span className="text-white text-[18px]" style={style}>(排名不分先后)</span>
                     </Col>
                     <Col span={8}></Col>
                 </Row>
-                <br /><br />
+                
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={george} alt="george" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={george} alt="george" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">George</p>
                             <p className="text-base m-0">Conflux 资深产品经理</p>
@@ -149,7 +149,7 @@ export default function Tutor2021() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={elson} alt="elson" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={elson} alt="elson" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Elson</p>
                             <p className="text-base m-0">Conflux 资深产品经理</p>
@@ -160,7 +160,7 @@ export default function Tutor2021() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={lv} alt="lv" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={lv} alt="lv" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Ares</p>
                             <p className="text-base m-0">Conflux 市场经理</p>
@@ -172,7 +172,7 @@ export default function Tutor2021() {
                 </Row>
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={ivan} alt="ivan" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={ivan} alt="ivan" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Ivan</p>
                             <p className="text-base m-0">Conflux 市场部成员</p>

@@ -9,7 +9,7 @@ import incentive from '../../images/rewards/incentive.svg'
 
 export default function Reward() {
     return (
-        <div className="w-[1280px] h-[900px] leading-6 tracking-normal">
+        <div className="h-[900px] leading-6 tracking-normal">
             <Row className="mt-14 text-[40px] font-bold">
                 <Col span={24}>参与者可以获得什么?</Col>
             </Row>

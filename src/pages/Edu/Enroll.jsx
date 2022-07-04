@@ -5,7 +5,7 @@ import wechat from '../../images/wechat.jpg'
 
 export default function Enroll() {
     return (
-        <div className="w-[1280px] h-[920px] bg-enroll bg-cover bg-center text-white tracking-wide">
+        <div className="h-[920px] bg-enroll bg-cover bg-center text-white tracking-wide">
             <Row className="pt-16 text-3xl">
                 <Col span={24}>谁能参与?</Col>
             </Row>
@@ -58,7 +58,7 @@ export default function Enroll() {
                 <Col span={8} className="text-center">
                     <ul className="inline-block list-disc text-left m-0">
                         <li className="mt-1 text-center">关注conflux中文社区，获取北斗计划最新消息
-                        <br />
+                        
                             <img className="inline-block w-12 h-12" src={wechat} alt="wechat" />
                         </li>
                         <li className="mt-1">高校合作：xinxin.xue@confluxnetwork.com</li>

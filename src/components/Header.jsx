@@ -50,13 +50,13 @@ export default function Header() {
     })
 
     return (
-        <div className="bg-black w-[1280px]">
-            <Row className="w-[1280px] h-25 text-[18px] text-white m-auto">
+        <div className="bg-black w-full">
+            <Row className="h-25 text-[18px] text-white m-auto">
                 <Col className="leading-[6rem]" span={4}>
                     <img className="inline-block h-[38px]" src={logo} alt="logo" />
                 </Col>
                 <Col className="leading-[6.25rem] ml-2 font-jockey font-semibold" span={16}>
-                    <nav>
+                    <nav className="w-[860px] m-auto">
                         <ul className="m-0">
                             <li className="inline-block">
                                 <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star}>北斗计划·{year}介绍</Link>

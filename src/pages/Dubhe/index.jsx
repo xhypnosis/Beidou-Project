@@ -1,7 +1,7 @@
 export default function Dubhe() {
     return (
-        <div className="w-[1280px] h-auto bg-back bg-fixed bg-cover">
-            <div className="w-[1280px] h-[900px] text-white flex justify-center">
+        <div className="bg-back bg-fixed bg-cover">
+            <div className="h-[900px] text-white flex justify-center">
                 <div className="mt-28 w-[816px] h-[420px] tracking-normal">
                     <p className="text-[40px] font-bold">北斗计划·天枢课程介绍</p>
                     <p className="text-[20px] font-normal text-justify">

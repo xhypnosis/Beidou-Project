@@ -15,7 +15,7 @@ export default function Tutor2020() {
     }
 
     return (
-        <div className="w-[1280px] bg-[#2F2E2E]">
+        <div className="bg-[#2F2E2E]">
             <div className="text-white tracking-normal pb-36">
                 <Row className="h-60 pt-24">
                     <Col span={8}></Col>
@@ -23,15 +23,15 @@ export default function Tutor2020() {
                         <h1 className="text-white m-0 text-[40px] font-bold">
                             <span style={style}>导 师 团 队</span>
                         </h1>
-                        <br />
+                        
                         <span className="text-white text-[18px]" style={style}>(排名不分先后)</span>
                     </Col>
                     <Col span={8}></Col>
                 </Row>
-                <br /><br />
-                <Row>
+                
+                <Row className="mt-20">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={longfan} alt="longfan" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={longfan} alt="longfan" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">龙凡</p>
                             <p className="text-base m-0">树图区块链研究院院长</p>
@@ -47,7 +47,7 @@ export default function Tutor2020() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={wuming} alt="wuming" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={wuming} alt="wuming" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">伍鸣</p>
                             <p className="text-base m-0">Conflux首席技术官</p>
@@ -60,7 +60,7 @@ export default function Tutor2020() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={zhoudong} alt="yuanjie" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={zhoudong} alt="zhoudong" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">周冬</p>
                             <p className="w-[280px] text-base m-0">清华大学交叉信息研究院助理教授</p>
@@ -75,19 +75,19 @@ export default function Tutor2020() {
                 </Row>
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={yuanjie} alt="yuanjie" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={yuanjie} alt="yuanjie" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">张元杰</p>
                             <p className="text-base m-0">Conflux联合创始人</p>
                             <ul className="w-[280px] ml-7 mt-9 mb-0 list-disc text-left text-[15px]">
-                                <li className="mt-1">布兰迪斯大学（Brandeis University）硕士</li>
+                                <li className="mt-1">布兰迪斯大学（andeis University）硕士</li>
                                 <li className="mt-1">本科毕业于复旦大学</li>
                                 <li className="mt-1">曾任职于北卡教堂山校友基金会和华泰招商母基金</li>
                             </ul>
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={peter} alt="peter" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={peter} alt="peter" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Péter Garamvölgyi</p>
                             <p className="text-base m-0">Conflux 资深研发工程师</p>
@@ -101,7 +101,7 @@ export default function Tutor2020() {
                         </div>
                     </Col>
                     <Col span={8} className="ml-[-2rem]">
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={liuyanpei} alt="yichen" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={liuyanpei} alt="yichen" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">刘严培</p>
                             <p className="w-[250px] text-base m-0">Conflux 核心系统开发工程师</p>
@@ -116,7 +116,7 @@ export default function Tutor2020() {
                 </Row>
                 <Row className="mt-32">
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={veneris} alt="veneris" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={veneris} alt="veneris" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Andreas Veneris</p>
                             <p className="w-[300px] text-base m-0">多伦多大学电子与计算机工程系教授、计算机科学系教授</p>
@@ -127,7 +127,7 @@ export default function Tutor2020() {
                         </div>
                     </Col>
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={zhangjunjing} alt="zhangjunjing" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={zhangjunjing} alt="zhangjunjing" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">章俊晶</p>
                             <p className="text-base m-0">鲸略区块链CEO</p>
@@ -140,14 +140,14 @@ export default function Tutor2020() {
                         </div>
                     </Col>
                     <Col span={8}>
-                        <img className="rounded-[50%] w-[220px] h-[220px] inline-block" src={eden} alt="eden" />
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={eden} alt="eden" />
                         <div className="w-[220px] mt-20 text-left inline-block">
                             <p className="text-[22px] font-bold mb-1">Eden Dhaliwal</p>
                             <p className="text-base m-0">Conflux 海外运营总监</p>
                             <ul className="w-[280px] ml-7 mt-[3.75rem] mb-0 list-disc text-left text-[15px]">
                                 <li className="mt-1">多伦多大学罗特曼管理学院工商管理硕士</li>
                                 <li className="mt-1">前 Outlier Ventures 合伙人、密码经济学主管</li>
-                                <li className="mt-1">Libra 协会创始成员</li>
+                                <li className="mt-1">Lia 协会创始成员</li>
                             </ul>
                         </div>
                     </Col>

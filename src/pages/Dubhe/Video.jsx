@@ -45,8 +45,8 @@ export default function Video2020() {
     }
 
     return (
-        <div className="w-[1280px] h-auto bg-white">
-            <div className="w-[1280px] h-[3000px]">
+        <div className="bg-white">
+            <div className="h-[3000px]">
                 <Row className="h-[4rem] font-lato leading-[5rem] text-[25px] text-left border-b border-black mx-1">
                     <Col span={24}>
                         <h2 className="ml-4 mb-0 font-black">课程视频</h2>
@@ -60,7 +60,7 @@ export default function Video2020() {
                             </button>
                             <video id="intro" controls width="406" poster={intro} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block mt-6 font-lato font-black text-xl">
@@ -74,7 +74,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec2a" controls width="406" poster={lec2a} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -88,7 +88,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec2b" controls width="406" poster={lec2b} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -104,7 +104,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec3a" controls width="406" poster={lec3a} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -118,7 +118,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec3b" controls width="406" poster={lec3b} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -132,7 +132,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec4a" controls width="406" poster={lec4a} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -148,7 +148,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec4b" controls width="406" poster={lec4b} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -162,7 +162,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec5a" controls width="406" poster={lec5a} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -176,7 +176,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec5b" controls width="406" poster={lec5b} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -192,7 +192,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec6a" controls width="406" poster={lec6a} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -206,7 +206,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec6b" controls width="406" poster={lec6b} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -220,7 +220,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec7a" controls width="406" poster={lec7a} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -236,7 +236,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec7b" controls width="406" poster={lec7b} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -250,7 +250,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec7c" controls width="406" poster={lec7c} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -264,7 +264,7 @@ export default function Video2020() {
                             </button>
                             <video id="lec8" controls width="406" poster={lec8} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -280,7 +280,7 @@ export default function Video2020() {
                             </button>
                             <video id="group6" controls width="406" poster={group6} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -294,7 +294,7 @@ export default function Video2020() {
                             </button>
                             <video id="group14" controls width="406" poster={group14} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -308,7 +308,7 @@ export default function Video2020() {
                             </button>
                             <video id="group27" controls width="406" poster={group27} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -324,7 +324,7 @@ export default function Video2020() {
                             </button>
                             <video id="group28" controls width="406" poster={group28} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -338,7 +338,7 @@ export default function Video2020() {
                             </button>
                             <video id="group29" controls width="406" poster={group29} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -352,7 +352,7 @@ export default function Video2020() {
                             </button>
                             <video id="group30" controls width="406" poster={group30} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -368,7 +368,7 @@ export default function Video2020() {
                             </button>
                             <video id="group33" controls width="406" poster={group33} className=" h-[228px] relative">
                                 <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your browser doesn't support embedded videos.
+                                Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">

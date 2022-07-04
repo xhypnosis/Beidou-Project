@@ -2,8 +2,8 @@ import { Col, Row } from 'antd'
 
 export default function Catalogue2020() {
     return (
-        <div className="w-[1280px] h-auto bg-space bg-cover">
-            <div className="w-[1280px] text-white">
+        <div className="bg-space bg-cover">
+            <div className="text-white">
                 <Row className="pt-4">
                     <Col span={8}></Col>
                     <Col span={8}>
@@ -28,7 +28,7 @@ export default function Catalogue2020() {
                         <span className="inline-block text-lg">2020/9/28</span>
                         <span className="inline-block text-lg ml-8">Week 2</span>
                         <span className="inline-block text-lg my-3">Class Time：2020/9/29 20:30 - 21:30</span>
-                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 1</span><br />
+                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 1</span>
                         <span className="inline-block text-[15px]">Development Kit</span>
                     </Col>
                     <Col span={4}></Col>
@@ -39,7 +39,7 @@ export default function Catalogue2020() {
                         <span className="inline-block text-lg">2020/10/5</span>
                         <span className="inline-block text-lg ml-8">Week 3</span>
                         <span className="inline-block text-lg my-3">Class Time：2020/10/10 20:30 - 21:30</span>
-                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 2</span><br />
+                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 2</span>
                         <span className="inline-block text-[15px]">Solidity & Smart Contracts 1</span>
                     </Col>
                     <Col span={3}></Col>
@@ -47,7 +47,7 @@ export default function Catalogue2020() {
                         <span className="inline-block text-lg">2020/10/12</span>
                         <span className="inline-block text-lg ml-8">Week 4</span>
                         <span className="inline-block text-lg my-3">Class Time：2020/10/17 20:30 - 21:30</span>
-                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 3</span><br />
+                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 3</span>
                         <span className="inline-block text-[15px]">Solidity & Smart Contracts 2</span>
                     </Col>
                     <Col span={4}></Col>
@@ -58,7 +58,7 @@ export default function Catalogue2020() {
                         <span className="inline-block text-lg">2020/11/2</span>
                         <span className="inline-block text-lg ml-8">Week 7</span>
                         <span className="inline-block text-lg my-3">Class Time：2020/11/14 19:30 - 21:30</span>
-                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 4</span><br />
+                        <span className="font-metro font-bold inline-block text-[22px] my-3">Coding Lesson 4</span>
                         <span className="inline-block text-[15px]">Solidity & Smart Contracts 3</span>
                     </Col>
                     <Col span={2}></Col>
@@ -66,7 +66,7 @@ export default function Catalogue2020() {
                         <span className="inline-block text-lg">2020/11/9</span>
                         <span className="inline-block text-lg ml-8">Week 8</span>
                         <span className="inline-block text-lg my-3">Class Time：2020/11/14 19:30 - 21:30</span>
-                        <span className="font-metro font-bold inline-block text-[22px] my-3">Introduction to DeFi</span><br />
+                        <span className="font-metro font-bold inline-block text-[22px] my-3">Introduction to DeFi</span>
                         <span className="inline-block text-[15px]">Decentralized Finance, Reconstruction and Innovation of Finance</span>
                     </Col>
                     <Col span={3}></Col>
@@ -77,16 +77,16 @@ export default function Catalogue2020() {
                         <span className="inline-block text-lg">2020/11/16</span>
                         <span className="inline-block text-lg ml-8">Week 9</span>
                         <span className="inline-block text-lg my-3">Class Time：2020/11/21 20:30 - 21:30</span>
-                        <br />
-                        <span className="font-metro font-bold inline-block text-[22px] my-3">Seminar</span><br />
+                        
+                        <span className="font-metro font-bold inline-block text-[22px] my-3">Seminar</span>
                         <span className="inline-block text-[15px]">Dapp Case Study</span>
                     </Col>
                     <Col span={3}></Col>
                     <Col span={6}>
                         <span className="inline-block text-lg">2020/11/23</span>
                         <span className="inline-block text-lg ml-8">Week 10</span>
-                        <br />
-                        <span className="font-metro font-bold inline-block text-[22px] my-6">Gap week 3</span><br />
+                        
+                        <span className="font-metro font-bold inline-block text-[22px] my-6">Gap week 3</span>
                         <span className="inline-block text-[15px]">Office Hour</span>
                     </Col>
                     <Col span={4}></Col>
@@ -96,8 +96,8 @@ export default function Catalogue2020() {
                     <Col span={8} clasName="ml-2">
                         <span className="inline-block text-lg">2020/11/30</span>
                         <span className="inline-block text-lg ml-8">Week 1</span>
-                        <br />
-                        <span className="font-metro font-bold inline-block text-[22px] my-6">Gap Week 4</span><br />
+                        
+                        <span className="font-metro font-bold inline-block text-[22px] my-6">Gap Week 4</span>
                         <span className="inline-block text-[15px]">Office Hour</span>
                     </Col>
                     <Col span={2}></Col>
@@ -105,7 +105,7 @@ export default function Catalogue2020() {
                         <span className="inline-block text-lg">2020/12/07</span>
                         <span className="inline-block text-lg ml-8">Week 12</span>
                         <span className="inline-block text-lg my-3">Class Time：2020/12/13 9:00AM – 12:00PM</span>
-                        <span className="font-metro font-bold inline-block text-[22px] my-3">Presentation</span><br />
+                        <span className="font-metro font-bold inline-block text-[22px] my-3">Presentation</span>
                         <span className="inline-block text-[15px]">Final Presentation</span>
                     </Col>
                     <Col span={3}></Col>
