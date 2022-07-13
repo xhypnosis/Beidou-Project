@@ -291,7 +291,7 @@ export default function Video2021() {
                                 Sorry, your owser doesn't support embedded videos.
                             </video>
                         </div>
-                        <h2 className="mt-6 font-lato font-black text-[21px] mb-[43.5px]">
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
                             Lecture 4.1 - Solidity语言以及Conflux智能合约入门
                         </h2>
                         
