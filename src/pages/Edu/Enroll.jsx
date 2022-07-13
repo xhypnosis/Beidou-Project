@@ -1,7 +1,7 @@
 import { Row, Col } from 'antd'
 import host from '../../images/host.webp'
 import logo from '../../images/homelogo.webp'
-import wechat from '../../images/wechat.jpg'
+import wechat from '../../images/wechat.png'
 
 export default function Enroll() {
     return (
