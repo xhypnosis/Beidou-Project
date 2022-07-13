@@ -9,12 +9,12 @@ export default function Header() {
     let reg1 = /\/(\S*)\//
     let reg2 = /\/(\S*)/
     let star
-    if(location.pathname.match(reg1)) {
+    if (location.pathname.match(reg1)) {
         star = location.pathname.match(reg1)[0]
-    }else {
+    } else {
         star = location.pathname.match(reg2)[0] + "/"
     }
-    
+
     let beidou = {
         dubhe: "天枢(2020)",
         merak: "天璇(2021)",
@@ -25,22 +25,22 @@ export default function Header() {
 
     useEffect(() => {
         let star
-        if(location.pathname.match(reg1)) {
+        if (location.pathname.match(reg1)) {
             star = location.pathname.match(reg1)[1]
-        }else {
+        } else {
             star = location.pathname.match(reg2)[0]
             star = star.slice(1)
         }
 
-        if(star=="dubhe") {
+        if (star == "dubhe") {
             let list = document.querySelector("#list")
             let li = document.getElementsByTagName("li")
             list.style.display = "none"
             li[0].style.width = "200px"
-            for(let i=1; i<6; i++) {
+            for (let i = 1; i < 6; i++) {
                 li[i].style.width = "95px"
             }
-        }else if(star=="merak") {
+        } else if (star == "merak") {
             let catalogue = document.querySelector("#catalogue")
             let link = document.querySelector("#catalogueLink")
             link.style.display = "inline"
@@ -53,7 +53,9 @@ export default function Header() {
         <div className="bg-black w-full">
             <Row className="h-25 text-[18px] text-white m-auto">
                 <Col className="leading-[6rem]" span={4}>
-                    <img className="inline-block h-[38px]" src={logo} alt="logo" />
+                    <a href="https://edu.confluxnetwork.org/" target="_blank" rel="noreferrer">
+                        <img className="inline-block h-[38px]" src={logo} alt="logo" />
+                    </a>
                 </Col>
                 <Col className="leading-[6.25rem] ml-2 font-jockey font-semibold" span={16}>
                     <nav className="w-[860px] m-auto">
@@ -62,30 +64,30 @@ export default function Header() {
                                 <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star}>北斗计划·{year}介绍</Link>
                             </li>
                             <li className="inline-block ml-6">
-                                <Link id="catalogue" className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star+"catalogue"}>课程目录</Link>
+                                <Link id="catalogue" className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star + "catalogue"}>课程目录</Link>
                                 <a id="catalogueLink" className="hidden text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" href="https://shimo.im/docs/loqeW9wjyMS5elAn" target="_blank" rel="noreferrer">课程目录</a>
                             </li>
                             <li className="inline-block ml-6">
-                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star+"video"}>课程录屏</Link>
+                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star + "video"}>课程录屏</Link>
                             </li>
                             <li className="inline-block ml-6">
-                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star+"courseware"}>课件下载</Link>
+                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star + "courseware"}>课件下载</Link>
                             </li>
                             <li className="inline-block ml-6">
-                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star+"reward"}>课程奖励</Link>
+                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star + "reward"}>课程奖励</Link>
                             </li>
                             <li className="inline-block ml-6">
-                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star+"tutor"}>导师介绍</Link>
+                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star + "tutor"}>导师介绍</Link>
                             </li>
                             <li id="list" className="inline-block ml-6">
-                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star+"entry-list"}>参赛团队名单</Link>
+                                <Link className="text-white hover:opacity-40 hover:text-zinc-500 focus:text-[#199EE0]" to={star + "entry-list"}>参赛团队名单</Link>
                             </li>
                         </ul>
                     </nav>
                 </Col>
                 <Col span={4} className="-ml-14">
-                   <span className="text-[14px] leading-[11rem] font-sans font-semibold underline">北斗计划·{year}</span>
-                   </Col>
+                    <span className="text-[14px] leading-[11rem] font-sans font-semibold underline">北斗计划·{year}</span>
+                </Col>
             </Row>
         </div>
     )
