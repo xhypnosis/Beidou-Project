@@ -1,6 +1,6 @@
 import { Col, Row, Dropdown, Menu } from 'antd'
 import { Link } from 'react-router-dom'
-import logo from '../images/homelogo.webp'
+import logo from '../images/homeLogo.webp'
 
 export default function eduHeader() {
     const menu = (

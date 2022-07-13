@@ -1,7 +1,7 @@
 import { Col, Row } from 'antd'
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import logo from '../images/homelogo.webp'
+import logo from '../images/homeLogo.webp'
 
 export default function Header() {
     let location = useLocation()
