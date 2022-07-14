@@ -59,8 +59,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="intro" controls width="406" poster={intro} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec1.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block mt-6 font-lato font-black text-xl">
@@ -73,8 +73,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec2a" controls width="406" poster={lec2a} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec2.1.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -87,8 +87,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec2b" controls width="406" poster={lec2b} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec2.2.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -103,8 +103,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec3a" controls width="406" poster={lec3a} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec3.1.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -117,8 +117,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec3b" controls width="406" poster={lec3b} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec3.2.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -131,8 +131,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec4a" controls width="406" poster={lec4a} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec4.1.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -147,8 +147,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec4b" controls width="406" poster={lec4b} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec4.2.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -161,8 +161,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec5a" controls width="406" poster={lec5a} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec5.1.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -175,8 +175,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec5b" controls width="406" poster={lec5b} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec5.2.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -191,8 +191,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec6a" controls width="406" poster={lec6a} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec6.1.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -205,8 +205,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec6b" controls width="406" poster={lec6b} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec6.2.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -219,8 +219,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec7a" controls width="406" poster={lec7a} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec7.1.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -235,8 +235,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec7b" controls width="406" poster={lec7b} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec7.2.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -249,8 +249,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec7c" controls width="406" poster={lec7c} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec7.3.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -263,8 +263,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="lec8" controls width="406" poster={lec8} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec8.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -279,8 +279,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="group6" controls width="406" poster={group6} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/preg6.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -293,8 +293,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="group14" controls width="406" poster={group14} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/preg14.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -307,8 +307,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="group27" controls width="406" poster={group27} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/preg27.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -323,8 +323,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="group28" controls width="406" poster={group28} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/preg28.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -337,8 +337,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="group29" controls width="406" poster={group29} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_c2e04adff96e4d5b979139910f5f1c93/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/preg29.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -351,8 +351,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="group30" controls width="406" poster={group30} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_43fb45a227c44ea781f04c38cb89eee5/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/preg30.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
@@ -367,8 +367,8 @@ export default function Video2020() {
                                 <img src={play} alt="" />
                             </button>
                             <video id="group33" controls width="406" poster={group33} className=" h-[228px] relative">
-                                <source src="https://video.wixstatic.com/video/6e6df2_59ba2d0b16d449d29f86ad2955b3c4c6/1080p/mp4/file.mp4" type="video/mp4" />
-                                Sorry, your owser doesn't support embedded videos.
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/preg33.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="inline-block w-[330px] mt-6 font-lato font-black text-xl">
