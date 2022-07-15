@@ -61,7 +61,7 @@ export default function Enroll() {
                         
                             <img className="inline-block w-12 h-12" src={wechat} alt="wechat" />
                         </li>
-                        <li className="mt-1">高校合作：xinxin.xue@confluxnetwork.com</li>
+                        <li className="mt-1">高校合作：edu@confluxnetwork.com</li>
                     </ul>
                 </Col>
                 <Col span={8}></Col>
