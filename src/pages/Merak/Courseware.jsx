@@ -64,7 +64,7 @@ export default function Courseware2021() {
                                 <img className="w-[50px]" src={pdf} alt="" />
                             </a>
                             <br />
-                            <span className="inline-block w-[160px] mt-8">Lecture 7.2 - 代币标准合约介绍</span>
+                            <span className="inline-block w-[160px] mt-8">Lecture 7.2 - 通证标准合约介绍</span>
                         </Col>
                         <Col span={5} className="text-center">
                             <a className="inline-block" href="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%92%872021/%E8%AF%BE%E4%BB%B6/lec8.1.pptx" target="_blank" rel="noreferrer">

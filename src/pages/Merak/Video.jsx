@@ -475,7 +475,7 @@ export default function Video2021() {
                             </video>
                         </div>
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
-                            Lecture7.2 - ERC代币标准介绍
+                            Lecture7.2 - ERC通证标准介绍
                         </h2>
 
                         <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec8b", "#lec8bBtn")}>
