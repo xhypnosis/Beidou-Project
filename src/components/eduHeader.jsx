@@ -27,7 +27,9 @@ export default function eduHeader() {
         <div className="bg-black w-full">
             <Row className="h-25 text-[18px] text-white m-auto">
                 <Col className="leading-[6rem]" span={4}>
-                    <img className="inline-block h-[38px]" src={logo} alt="logo" />
+                    <a href="http://edu.tree-graph.org.cn/" target="_blank" rel="noreferrer">
+                        <img className="inline-block h-[38px]" src={logo} alt="logo" />
+                    </a>
                 </Col>
                 <Col className="leading-[6.25rem] ml-7 font-jockey font-semibold" span={15}>
                     <nav className="w-[800px] m-auto">
