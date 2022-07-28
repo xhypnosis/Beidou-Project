@@ -113,11 +113,12 @@ export default function Video2020() {
                     </Col>
                     <Col span={8} className="text-center">
                         <div className="relative inline-block" onClick={() => screenPlay("#lec3b", "#lec3bBtn")}>
-                            <button id="lec3bBtn" className="w-[45px] h-[45px] absolute bottom-[55px] left-[183px] bg-black z-10" onClick={() => playVideo("#lec3b", "#lec3bBtn")}>
+                            {/* <button id="lec3bBtn" className="w-[45px] h-[45px] absolute bottom-[55px] left-[183px] bg-black z-10" onClick={() => playVideo("#lec3b", "#lec3bBtn")}>
                                 <img src={play} alt="" />
-                            </button>
-                            <video id="lec3b" controls width="406" poster={lec3b} className=" h-[228px] relative">
-                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec3.2.mp4" type="video/mp4" />
+                            </button> */}
+                            <p className="text-white text-lg absolute bottom-[100px] left-[30px] z-10">Sorry, the link is temporally not available</p>
+                            <video id="lec3b" controls width="406" className=" h-[228px] relative">
+                                {/* <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E6%9E%A22020/%E8%A7%86%E9%A2%91/lec3.2.mp4" type="video/mp4" /> */}
                                 Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
