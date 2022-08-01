@@ -28,8 +28,9 @@ export default function Header() {
         if (location.pathname.match(reg1)) {
             star = location.pathname.match(reg1)[1]
         } else {
-            star = location.pathname.match(reg2)[0]
-            star = star.slice(1)
+            // star = location.pathname.match(reg2)[0]
+            // star = star.slice(1)
+            star = location.pathname.match(reg2)[1]
         }
 
         if (star == "dubhe") {
@@ -53,7 +54,7 @@ export default function Header() {
         <div className="bg-black w-full">
             <Row className="h-25 text-[18px] text-white m-auto">
                 <Col className="leading-[6rem]" span={4}>
-                    <a href="http://edu.tree-graph.org.cn/" target="_blank" rel="noreferrer">
+                    <a href="https://edu.tree-graph.org.cn/" target="_blank" rel="noreferrer">
                         <img className="inline-block h-[38px]" src={logo} alt="logo" />
                     </a>
                 </Col>
