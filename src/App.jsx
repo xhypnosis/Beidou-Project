@@ -27,10 +27,10 @@ import Reward from './pages/Edu/Reward'
 import Enroll from './pages/Edu/Enroll'
 
 function App() {
-    let url = window.location.protocol+ '//' +window.location.host + '/'
-    if(url!=="https://edu.tree-graph.org.cn/") {
-        window.location.replace("https://edu.tree-graph.org.cn/")
-    }
+    // let url = window.location.protocol+ '//' +window.location.host + '/'
+    // if(url!=="https://edu.tree-graph.org.cn/") {
+    //     window.location.replace("https://edu.tree-graph.org.cn/")
+    // }
     return (
         <div className="App">
             <BrowserRouter>
