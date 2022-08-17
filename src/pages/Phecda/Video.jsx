@@ -1,5 +1,6 @@
 import { Col, Row } from 'antd'
 import play from '../../images/posters2021/play.svg'
+import poster from '../../images/posters2022/default.svg'
 
 export default function Video2022() {
     function playVideo(vid, bid) {
@@ -37,16 +38,28 @@ export default function Video2022() {
                             <button id="sem1Btn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#sem1", "#sem1Btn")}>
                                 <img src={play} alt="" />
                             </button>
-                            <video id="sem1" preoload="none" controls width="406" className=" h-[228px]">
+                            <video id="sem1" preoload="none" controls width="406" poster={poster} className=" h-[228px]">
                                 <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%201/day1-%E5%BC%80%E8%90%A5/phegda-camp.mp4" type="video/mp4" />
                                 Sorry, your browser doesn't support embedded videos.
                             </video>
                         </div>
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
-                            Seminar 1-开营仪式
+                            Seminar 1 - 开营仪式
                         </h2>
                     </Col>
                     <Col span={8}>
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec1", "#lec1Btn")}>
+                            <button id="lec1Btn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec1", "#lec1Btn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec1" preoload="none" controls width="406" poster={poster} className=" h-[228px]">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%201/day2-web3%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5-seedao/baiyu.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 1 - Web3的核心概念
+                        </h2>
                     </Col>
                     <Col span={8}>
                     </Col>
