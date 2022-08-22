@@ -31,6 +31,7 @@ function App() {
     // if(url!=="https://edu.tree-graph.org.cn/") {
     //     window.location.replace("https://edu.tree-graph.org.cn/")
     // }
+    
     return (
         <div className="App">
             <BrowserRouter>

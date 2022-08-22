@@ -7,6 +7,11 @@ import yichen from '../../images/tutors/yichen.webp'
 import baiyu from '../../images/tutors/baiyu.jpg'
 import tanghan from '../../images/tutors/tanghan.jpg'
 import wuxiao from '../../images/tutors/wuxiao.jpg'
+import jiangwei from '../../images/tutors/jiangwei.jpg'
+import zenghaitao from '../../images/tutors/zenghaitao.jpg'
+import shilan from '../../images/tutors/shilan.png'
+import sunzhe from '../../images/tutors/sunzhe.jpg'
+
 import { Col, Row } from 'antd'
 
 export default function Tutor2022() {
@@ -147,6 +152,59 @@ export default function Tutor2022() {
                                 <li className="mt-1">南京纯白矩阵科技有限公司首席执行官</li>
                             </ul>
                         </div>
+                    </Col>
+                </Row>
+                <Row className="mt-32">
+                    <Col span={8}>
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={jiangwei} alt="jiangwei" />
+                        <div className="w-[220px] mt-20 text-left inline-block">
+                            <p className="text-[22px] font-bold mb-1">姜维</p>
+                            <p className="text-base m-0">淘派创始人</p>
+                            <ul className="w-[280px] ml-7 mt-9 mb-0 list-disc text-left text-[15px]">
+                                <li className="mt-1">前上海树图区块链研究院产品技术负责人</li>
+                            </ul>
+                        </div>
+                    </Col>
+                    <Col span={8}>
+                        <div className="w-[220px] h-[220px] overflow-hidden rounded-[50%] m-auto bg-white">
+                            <img className="m-auto w-[150px]" src={zenghaitao} alt="zenghaitao" />
+                        </div>
+                        <div className="w-[220px] mt-20 text-left inline-block">
+                            <p className="text-[22px] font-bold mb-1">曾海涛</p>
+                            <p className="text-base m-0">美匣科技联合创始人兼CTO</p>
+                            <ul className="w-[280px] ml-7 mt-9 mb-0 list-disc text-left text-[15px]">
+                                <li className="mt-1">20+年技术和产品经验</li>
+                            </ul>
+                        </div>
+                    </Col>
+                    <Col span={8}>
+                        <img className="rounded-[50%] w-[220px] h-[220px] m-auto" src={shilan} alt="shilan" />
+                        <div className="w-[220px] mt-[4.25rem] text-left inline-block">
+                            <p className="text-[22px] font-bold mb-1">石岚</p>
+                            <p className="text-base m-0">咖菲科技(cocafe) 创始人兼CEO </p>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="mt-32">
+                    <Col span={8}>
+                        <div className="w-[220px] h-[220px] overflow-hidden rounded-[50%] m-auto">
+                            <img className="w-full" src={sunzhe} alt="sunzhe" />
+                        </div>
+                        <div className="w-[220px] mt-20 text-left inline-block">
+                            <p className="text-[22px] font-bold mb-1">孙哲</p>
+                            <p className="text-base m-0">Comupage 发起人</p>
+                            <ul className="w-[280px] ml-7 mt-9 mb-0 list-disc text-left text-[15px]">
+                                <li className="mt-1">巴黎高师社会学博士</li>
+                                <li className="mt-1">上海交大博士后</li>
+                                <li className="mt-1">任教于上海财经大学</li>
+                            </ul>
+                        </div>
+                    </Col>
+                    <Col span={8}>
+                        
+                    </Col>
+                    <Col span={8}>
+
                     </Col>
                 </Row>
             </div>
