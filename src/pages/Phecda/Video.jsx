@@ -86,7 +86,21 @@ export default function Video2022() {
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
                             Lecture 2 - Web3 基础设施 - 4
                         </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec3b", "#lec3bBtn")}>
+                            <button id="lec3bBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec3b", "#lec3bBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec3b" preoload="none" controls width="406" poster={poster} className=" h-[228px]">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%92%872021/%E8%A7%86%E9%A2%91/%E8%AF%BE%E7%A8%8B3/Lec3.2Final.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 3-2 如何在Conflux上发送一笔交易
+                        </h2>
                     </Col>
+
                     <Col span={8}>
                         <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec2a", "#lec2aBtn")}>
                             <button id="lec2aBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec2a", "#lec2aBtn")}>
@@ -112,6 +126,19 @@ export default function Video2022() {
                         </div>
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
                             Lecture 2 - Web3 基础设施 - 3
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec3a", "#lec3aBtn")}>
+                            <button id="lec3aBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec3a", "#lec3aBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec3a" preoload="none" controls width="406" poster={poster} className=" h-[228px]">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%92%872021/%E8%A7%86%E9%A2%91/%E8%AF%BE%E7%A8%8B3/Lec3.1Final.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 3-1 JS-SDK和开发工具的介绍与使用
                         </h2>
                     </Col>
                 </Row>

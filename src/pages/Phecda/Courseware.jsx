@@ -23,7 +23,11 @@ export default function Courseware2022() {
                             <span className="inline-block w-[140px] mt-8">Lec 2-4 如何打造一个合规、安全、通用的web3账户体系</span>
                         </Col>
                         <Col span={5} className="text-center">
-
+                            <a className="inline-block" href="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%92%872021/%E8%AF%BE%E4%BB%B6/lec3.1.pptx" target="_blank" rel="noreferrer">
+                                <img className="w-[50px]" src={pdf} alt="" />
+                            </a>
+                            <br />
+                            <span className="inline-block w-[140px] mt-5">​Lecture 3.1 - JS-SDK和开发工具的介绍与使用</span>
                         </Col>
                         <Col span={5} className="text-center">
 
