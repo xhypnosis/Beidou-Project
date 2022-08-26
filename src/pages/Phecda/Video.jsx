@@ -97,7 +97,20 @@ export default function Video2022() {
                             </video>
                         </div>
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
-                            Lecture 3-2 如何在Conflux上发送一笔交易
+                            Lecture 3 - 如何在Conflux上发送一笔交易 - 2
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lecba", "#lec4bBtn")}>
+                            <button id="lec4bBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lecba", "#lec4bBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lecba" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%92%872021/%E8%A7%86%E9%A2%91/%E8%AF%BE%E7%A8%8B7/lec7.1final.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 4 - 智能合约 -2
                         </h2>
                     </Col>
 
@@ -138,7 +151,33 @@ export default function Video2022() {
                             </video>
                         </div>
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
-                            Lecture 3-1 JS-SDK和开发工具的介绍与使用
+                            Lecture 3 - S-SDK和开发工具的介绍与使用 - 1
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec4a", "#lec4aBtn")}>
+                            <button id="lec4aBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec4a", "#lec4aBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec4a" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%92%872021/%E8%A7%86%E9%A2%91/%E8%AF%BE%E7%A8%8B5/lec5Final.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 4 - 智能合约 - 1
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec5a", "#lec5aBtn")}>
+                            <button id="lec5aBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec5a", "#lec5aBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec5a" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%202/day2-%E6%95%B0%E8%97%8F%E5%90%88%E7%BA%A6-chainide/chainide.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 5 - 数字藏品合约开发与部署
                         </h2>
                     </Col>
                 </Row>
