@@ -22,7 +22,7 @@ export default function Video2022() {
         })
     }
     return (
-        <div className="bg-white">
+        <div className="bg-white w-full">
             <div className="my-8">
                 <Row className="h-[4.7rem] leading-[5rem] text-[2.35rem] text-left border-b border-black">
                     <Col span={8} className="border-r border-black">
@@ -46,6 +46,20 @@ export default function Video2022() {
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
                             Seminar 1 - 开营仪式
                         </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#sem2", "#sem2Btn")}>
+                            <button id="sem2Btn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#sem2", "#sem2Btn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="sem2" preoload="none" controls width="406" poster={poster} className=" h-[228px]">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%202/sem-2/sem-2.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Seminar 2 - 开题汇报 (一)
+                        </h2>
+
                     </Col>
                     <Col span={8}>
                         <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec1", "#lec1Btn")}>
