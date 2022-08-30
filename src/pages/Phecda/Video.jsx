@@ -114,11 +114,11 @@ export default function Video2022() {
                             Lecture 3 - 如何在Conflux上发送一笔交易 - 2
                         </h2>
 
-                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lecba", "#lec4bBtn")}>
-                            <button id="lec4bBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lecba", "#lec4bBtn")}>
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec4b", "#lec4bBtn")}>
+                            <button id="lec4bBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec4b", "#lec4bBtn")}>
                                 <img src={play} alt="" />
                             </button>
-                            <video id="lecba" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                            <video id="lec4b" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
                                 <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%92%872021/%E8%A7%86%E9%A2%91/%E8%AF%BE%E7%A8%8B7/lec7.1final.mp4" type="video/mp4" />
                                 Sorry, your browser doesn't support embedded videos.
                             </video>
@@ -126,6 +126,20 @@ export default function Video2022() {
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
                             Lecture 4 - 智能合约 -2
                         </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec6a", "#lec6aBtn")}>
+                            <button id="lec6aBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec6a", "#lec6aBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec6a" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/day1-dao%E5%A6%82%E4%BD%95%E8%BF%90%E8%A1%8C/lec6-1-seedao.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 6 - DAO - 1
+                        </h2>
+
                     </Col>
 
                     <Col span={8}>
@@ -192,6 +206,19 @@ export default function Video2022() {
                         </div>
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
                             Lecture 5 - 数字藏品合约开发与部署
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec6b", "#lec6bBtn")}>
+                            <button id="lec6bBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec6b", "#lec6bBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec6b" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/day1-dao%E5%A6%82%E4%BD%95%E8%BF%90%E8%A1%8C/lec6-blackide.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 6- Dao - 2 
                         </h2>
                     </Col>
                 </Row>
