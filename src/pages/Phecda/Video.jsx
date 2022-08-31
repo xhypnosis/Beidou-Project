@@ -140,6 +140,32 @@ export default function Video2022() {
                             Lecture 6 - DAO - 1
                         </h2>
 
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec7a", "#lec7aBtn")}>
+                            <button id="lec7aBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec7a", "#lec7aBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec7a" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/day2/comupage.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 7-1 comupage 在灵魂通证领域的探索
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec7c", "#lec7cBtn")}>
+                            <button id="lec7cBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec7c", "#lec7cBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec7c" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/day2/%E6%95%B0%E5%AD%97%E8%97%8F%E5%93%81%E4%B8%9A%E5%8A%A1%E8%AE%B2%E8%A7%A3-%E6%B7%98%E6%B4%BE.mov" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 7-3 数字藏品业务讲解
+                        </h2>
+
                     </Col>
 
                     <Col span={8}>
@@ -219,6 +245,32 @@ export default function Video2022() {
                         </div>
                         <h2 className="mt-6 font-lato font-black text-[21px] h-16">
                             Lecture 6- Dao - 2 
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec7b", "#lec7bBtn")}>
+                            <button id="lec7bBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec7b", "#lec7bBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec7b" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/day2/%E6%95%B0%E5%AD%97%E8%97%8F%E5%93%81%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8A%9F%E8%83%BD%E4%B8%8E%E5%AE%9E%E7%8E%B0-%E7%BE%8E%E5%8C%A3.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 7-2 数字藏品平台的功能和实现
+                        </h2>
+
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec7d", "#lec7dBtn")}>
+                            <button id="lec7dBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec7d", "#lec7dBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec7d" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/day2/%E6%95%B0%E5%AD%97%E8%97%8F%E5%93%81%E7%9A%84%E6%96%B0%E7%94%9F%E6%A0%87%E5%87%86%E5%92%8C%E5%9C%BA%E6%99%AF-cocafe.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 7-4 数字藏品的新生标准和场景
                         </h2>
                     </Col>
                 </Row>
