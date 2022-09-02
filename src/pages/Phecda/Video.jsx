@@ -166,6 +166,19 @@ export default function Video2022() {
                             Lecture 7-3 数字藏品业务讲解
                         </h2>
 
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec8a", "#lec8aBtn")}>
+                            <button id="lec8aBtn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#lec8a", "#lec8aBtn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="lec8a" preoload="none" controls width="406" poster={poster} className=" h-[228px] relative">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/day3-%E5%85%83%E5%AE%87%E5%AE%99-%E8%8E%AB%E8%B5%9B/%E6%90%AD%E5%BB%BA%E5%85%83%E5%AE%87%E5%AE%99%E7%9A%84%E9%87%8D%E8%A6%81%E7%8E%AF%E8%8A%82.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Lecture 8 搭建元宇宙的重要环节
+                        </h2>
+
                     </Col>
 
                     <Col span={8}>
