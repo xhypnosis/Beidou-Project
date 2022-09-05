@@ -60,6 +60,19 @@ export default function Video2022() {
                             Seminar 2 - 开题汇报 (一)
                         </h2>
 
+                        <div className="relative inline-block mt-8" onClick={() => screenPlay("#sem3", "#sem3Btn")}>
+                            <button id="sem3Btn" className="w-[45px] h-[45px] absolute bottom-[90px] left-[180px] bg-black z-10" onClick={() => playVideo("#sem3", "#sem3Btn")}>
+                                <img src={play} alt="" />
+                            </button>
+                            <video id="sem3" preoload="none" controls width="406" poster={poster} className=" h-[228px]">
+                                <source src="https://conflux-edu.oss-cn-beijing.aliyuncs.com/%E5%A4%A9%E7%8E%912022/week%203/sem3/seminar3.mp4" type="video/mp4" />
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <h2 className="mt-6 font-lato font-black text-[21px] h-16">
+                            Seminar 3 - 开题汇报 (二)
+                        </h2>
+
                     </Col>
                     <Col span={8}>
                         <div className="relative inline-block mt-8" onClick={() => screenPlay("#lec1", "#lec1Btn")}>
